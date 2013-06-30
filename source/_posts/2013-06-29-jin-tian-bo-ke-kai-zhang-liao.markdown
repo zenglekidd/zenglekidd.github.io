@@ -61,7 +61,7 @@ end
 ------
 好， 那既然说到安装主题 我们来看看有哪些不错的themes呢？
 
-[这里(https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes)就是第三方的主题了
+[这里](https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes)就是第三方的主题了
 可以点击Preview预览一下 看看自己喜欢哪个
 
 那我目前选的是fabric，(其实Greyshade给我的感觉也很好的!)
@@ -78,9 +78,12 @@ $ rake generate
 
 发布到Github Pages上面
 -----
+在Octopress上面也有[详细步骤](http://octopress.org/docs/deploying/github/)
 
-分享Code Snippets
------
+当然，如果你以前没用用过Github的Pages的话 你可能也会像我一样掉到这个坑里！！
+看起来很简单的setup，却在github怎么都设置不对, 我们先看看一切顺利的情况是什么样子
 
-以上是如何工作的
+(未完待续。。。)
+
+总结:以上是如何工作的
 -----
