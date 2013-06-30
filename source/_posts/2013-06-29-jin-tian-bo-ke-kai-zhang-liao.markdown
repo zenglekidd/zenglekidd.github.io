@@ -18,7 +18,7 @@ categories:
 
 如果不想看也不要紧，下面我把他们摘录下来：
 
-{% codeblock 下载安装Octopress的方法. lang:bash %}
+{% codeblock 下载安装Octopress的方法. %}
 git clone git://github.com/imathis/octopress.git octopress
 cd octopress 
 ruby --version  # Should report Ruby 1.9.3
@@ -69,7 +69,7 @@ end
 好那以fabric为例 看看怎么安装，当然这里提供[fabric主页(https://github.com/panks/fabric)
 下面是我的摘录：
 
-{% codeblock install fabric theme for Octopress lang:bash %}
+{% codeblock install fabric theme for Octopress %}
 $ cd octopress
 $ git clone git://github.com/panks/fabric.git .themes/fabric
 $ rake install['fabric']
