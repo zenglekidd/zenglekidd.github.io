@@ -4,7 +4,7 @@
   <title><![CDATA[NSLeg -- iOS Blog]]></title>
   <link href="http://zenglekidd.github.io/atom.xml" rel="self"/>
   <link href="http://zenglekidd.github.io/"/>
-  <updated>2013-06-30T00:20:41-04:00</updated>
+  <updated>2013-06-30T23:04:19-04:00</updated>
   <id>http://zenglekidd.github.io/</id>
   <author>
     <name><![CDATA[Le Zeng]]></name>
@@ -124,9 +124,43 @@
 <p>当然，如果你以前没用用过Github的Pages的话 你可能也会像我一样掉到这个坑里！！
 看起来很简单的setup，却在github怎么都设置不对, 我们先看看一切顺利的情况是什么样子</p>
 
-<p>(未完待续。。。)</p>
+<p>首先关于Github Pages的介绍 在<a href="https://help.github.com/articles/user-organization-and-project-pages">这里</a></p>
+
+<p>有三种Pages: User Pages, Organization Pages and Project Pages</p>
+
+<p>下面是在Github上面很重要的一句：</p>
+
+<blockquote><p>Tip: You can only use your own account name for a User or Org Pages repository. A repository like joe/bob.github.io will not build Pages.</p></blockquote>
+
+<p>这个就是告诉我们，如果要创建User Page的话 joe/bob.github.io这样就不行， 必须使用joe/joe.github.io, 我就是被这个坑了很久.
+所以第一件事情是创建一个Github repo，并且这个repo的名字一定要是joe.github.io, 比如我这个blog名字就必须是zenglekidd.github.io,</p>
+
+<p>好，那创建好Github repo之后呢， 我们需要连接这个repo和我们的octopress文件夹，如何连接呢？ Octopress提供了一个方便的方法：
+使用Octopress提供的rake工具</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake setup_github_pages</span></code></pre></td></tr></table></div></figure>
+
+
+<p>用这个命令就会弹出一个提示问你要链接哪个URL，填入git@github.com:zenglekidd/zenglekidd.github.io.git, 这样就完成的绑定工作</p>
+
+<p>下面每次修改完Blog之后 你要做下面几件事情：</p>
+
+<ol>
+<li>git push origin source, 把整个Blog的源代码push到github上面 作为backup</li>
+<li>rake generate, 生成需要的html文件(把markdown转换成html)</li>
+<li>rake deploy, 把生成的html文件发布到你的github主页上面</li>
+</ol>
+
 
 <h2>总结:以上是如何工作的</h2>
+
+<p>那本篇博客的全部内容 特别是上面这三步 刚开始可能会弄不懂什么意思， 我来解释一下：</p>
+
+<p>首先你可以在octopress/ 文件夹下面执行两个命令： 1. git branch, 2. git remote -v.
+这里是我执行的结果</p>
+
+<p>(未完待续)</p>
 ]]></content>
   </entry>
   
