@@ -19,12 +19,12 @@ categories:
 如果不想看也不要紧，下面我把他们摘录下来：
 
 {% codeblock 下载安装Octopress的方法. %}
-git clone git://github.com/imathis/octopress.git octopress
-cd octopress 
-ruby --version  # Should report Ruby 1.9.3
-gem install bundler
-bundle install
-rake install
+$ git clone git://github.com/imathis/octopress.git octopress
+$ cd octopress 
+$ ruby --version  # Should report Ruby 1.9.3
+$ gem install bundler
+$ bundle install
+$ rake install
 {% endcodeblock %}
 
 在这里稍微解释下：
@@ -66,7 +66,7 @@ end
 
 那我目前选的是fabric，(其实Greyshade给我的感觉也很好的!)
 
-好那以fabric为例 看看怎么安装，当然这里提供[fabric主页(https://github.com/panks/fabric)
+好那以fabric为例 看看怎么安装，当然这里提供[fabric主页](https://github.com/panks/fabric)
 下面是我的摘录：
 
 {% codeblock install fabric theme for Octopress %}
@@ -83,7 +83,37 @@ $ rake generate
 当然，如果你以前没用用过Github的Pages的话 你可能也会像我一样掉到这个坑里！！
 看起来很简单的setup，却在github怎么都设置不对, 我们先看看一切顺利的情况是什么样子
 
-(未完待续。。。)
+首先关于Github Pages的介绍 在[这里](https://help.github.com/articles/user-organization-and-project-pages)
+
+有三种Pages: User Pages, Organization Pages and Project Pages
+
+下面是在Github上面很重要的一句：
+
+> Tip: You can only use your own account name for a User or Org Pages repository. A repository like joe/bob.github.io will not build Pages.
+
+这个就是告诉我们，如果要创建User Page的话 joe/bob.github.io这样就不行， 必须使用joe/joe.github.io, 我就是被这个坑了很久.
+所以第一件事情是创建一个Github repo，并且这个repo的名字一定要是joe.github.io, 比如我这个blog名字就必须是zenglekidd.github.io,
+
+好，那创建好Github repo之后呢， 我们需要连接这个repo和我们的octopress文件夹，如何连接呢？ Octopress提供了一个方便的方法：
+使用Octopress提供的rake工具
+
+``` 
+$ rake setup_github_pages
+```
+
+用这个命令就会弹出一个提示问你要链接哪个URL，填入git@github.com:zenglekidd/zenglekidd.github.io.git, 这样就完成的绑定工作
+
+下面每次修改完Blog之后 你要做下面几件事情：
+
+1. git push origin source, 把整个Blog的源代码push到github上面 作为backup
+2. rake generate, 生成需要的html文件(把markdown转换成html)
+3. rake deploy, 把生成的html文件发布到你的github主页上面
 
 总结:以上是如何工作的
 -----
+那本篇博客的全部内容 特别是上面这三步 刚开始可能会弄不懂什么意思， 我来解释一下：
+
+首先你可以在octopress/ 文件夹下面执行两个命令： 1. git branch, 2. git remote -v.
+这里是我执行的结果
+
+(未完待续)
