@@ -1,0 +1,48 @@
+---
+layout: post
+title: Manipulate Objects in Excel
+date: 2011-11-13 19:27:58.000000000 -05:00
+categories:
+- Basics
+- Excel
+tags:
+- Excel
+- VBA
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '17781607'
+  _wpas_done_linkedin: '1'
+  _wpas_done_twitter: '1'
+  _wpas_skip_fb: '1'
+author:
+  login: zenglekidd
+  email: zenglekidd@gmail.com
+  display_name: zenglekidd
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>There are several objects in <a class="zem_slink" title="Microsoft Excel" href="http://office.microsoft.com/en-us/excel" rel="homepage">Excel</a>:<br />
+application, workbook, worksheet, range, cells.</p>
+<p><strong>Application:</strong> It is Excel itself.<br />
+<strong>Workbook:</strong> The excel file (but may contain several worksheets)<br />
+<strong>Worksheet:</strong> A single table, worksheet.<br />
+You can use worksheets("sheetName") or worksheet(index) to get it.</p>
+<p><strong>Range:</strong> An area in your worksheet. you can get one whole area or serveral separate area.</p>
+<p>like: <strong><span style="color:#008000;font-family:Arial;">Range("A1:C3")</span></strong> means:</p>
+<p><a href="http://lezeng.files.wordpress.com/2011/11/excel1.png"><img class="aligncenter size-full wp-image-155" title="excel1" src="assets/excel1.png" alt="" width="235" height="96" /></a></p>
+<p><strong><span style="color:#008000;font-family:Arial;">Range("A1:B2","C4:D5")</span></strong>means:</p>
+<p><a href="http://lezeng.files.wordpress.com/2011/11/excel2.png"><img class="aligncenter size-full wp-image-158" title="excel2" src="assets/excel2.png" alt="" width="297" height="130" /></a><strong>Cells:</strong></p>
+<p>Cells(rowIndex,columIndex) :</p>
+<p>1.It is start from <strong>1.</strong></p>
+<p>2.row number first, column number second.</p>
+<p><strong>Selection:</strong></p>
+<p>use dot syntax to select the object.</p>
+<p>like <strong><span style="color:#008000;font-family:Arial;">Range("A1:B2").Select</span></strong></p>
+<p><strong>Offset:</strong></p>
+<p><span style="color:#333333;font-family:Arial;">To move one cell down (from B2 to B3): </span><strong><span style="color:#008000;font-family:Arial;">Range("B2").Offset(1,0).Select</span><br />
+</strong><strong></strong><span style="color:#333333;font-family:Arial;">To move one cell up  (from B2 to B1): </span><strong><span style="color:#008000;font-family:Arial;">Range("B2").Offset(-1,0).Select</span></strong><span style="color:#333333;font-family:Arial;"><br />
+</span></p>

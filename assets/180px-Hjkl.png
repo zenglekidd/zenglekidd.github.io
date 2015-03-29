@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Swaroop C H - Conning people into thinking I'm intelligent. Since 1982.</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+        <!-- Pygments CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+        <link rel="stylesheet" href="/css/pygments.css">
+
+        <!-- RSS Feed -->
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"/>
+
+        
+
+        <!-- https://dev.twitter.com/docs/cards/types/summary-card -->
+        <!-- https://dev.twitter.com/docs/cards/markup-reference -->
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:site" content="@swaroopch"/>
+        <meta name="twitter:creator" content="@swaroopch"/>
+        
+        <meta name="twitter:title" content="Swaroop C H - Conning people into thinking I'm intelligent. Since 1..."/>
+        
+        
+        
+
+        <!-- Software -->
+        <meta name="generator" content="http://jekyllrb.com"/>
+    </head>
+    <body>
+
+        <div class="site">
+          <div class="header">
+            <h1 class="title"><a href="/">Swaroop C H</a></h1>
+            <a class="extra" href="/blog/">blog</a>
+            <a class="extra" href="/notes/">books</a>
+            <a class="extra" href="/about/">about</a>
+            <a class="extra" href="/contact/">contact</a>
+            <a class="mailchimp extra" href="http://eepurl.com/SusIP" title="subscribe via email">subscribe</a>
+            <a class="twitter extra" rel="me" href="https://twitter.com/swaroopch">twitter</a>
+          </div>
+
+          <div id="home">
+  <h1>Recent Blog Posts</h1>
+  <ul class="posts">
+    
+      <li><span>08 Mar 2015</span> &raquo; <a href="/2015/03/08/dhh-10-years-of-rails/">Lessons from The Changelog's interview of DHH on 10 Years of Ruby on Rails</a></li>
+    
+      <li><span>05 Mar 2015</span> &raquo; <a href="/2015/03/05/redis-conference/">Notes from Redis Conference 2015</a></li>
+    
+      <li><span>27 Nov 2014</span> &raquo; <a href="/2014/11/27/ashok-banker-ten-kings/">Book Review - Ten Kings by Ashok Banker</a></li>
+    
+      <li><span>05 May 2014</span> &raquo; <a href="/2014/05/05/mature-optimization-handbook/">The Mature Optimization Handbook</a></li>
+    
+      <li><span>13 Apr 2014</span> &raquo; <a href="/2014/04/13/how-world-works/">Four must-watch talks and articles on How the World Works</a></li>
+    
+      <li><span>11 Apr 2014</span> &raquo; <a href="/2014/04/11/migrated_to_jekyll/">Migrated to Jekyll</a></li>
+    
+      <li><span>07 Apr 2014</span> &raquo; <a href="/2014/04/07/welcome-to-jekyll/">Welcome to Jekyll!</a></li>
+    
+      <li><span>29 Mar 2014</span> &raquo; <a href="/2014/03/29/byte-of-python-asciidoc/">A Byte of Python converted to AsciiDoc  for Python 2</a></li>
+    
+      <li><span>23 Oct 2013</span> &raquo; <a href="/2013/10/23/programming-lessons/">Tech - Eight programming lessons learned in 2013</a></li>
+    
+      <li><span>21 Oct 2013</span> &raquo; <a href="/2013/10/21/nh7-weekender-2013/">NH7 Weekender 2013</a></li>
+    
+  </ul>
+
+  <h1>Blog Reviews</h1>
+  <p><a href="https://twitter.com/adi_bhushan/status/471199115229929472">Aditya Bhushan</a> says: &#8220;If it's a problem, it's always a people problem. - @swaroopch revisited your blog after a long time. It always remains fresh and wise :-)&#8221;</p>
+  <p><a href="http://twitter.com/gkadkol/status/196946512129949697">Girish Kadkol</a> and <a href="https://twitter.com/#!/sampad/status/196946768066379776">Sampad Swain</a> say: &#8220;Aspiring techies and college students recommend to follow @swaroopch , his blogs are good and knowledgeable.&#8221;</p>
+  <p><a href="http://twitter.com/achitnis/status/9836236092997632">Atul Chitnis says:</a> &#8221;What&#8217;s awesome is @swaroopch&#8217;s blog posts, and how they MAKE me &amp; others think.&#8221;</p>
+  <p><a href="http://twitter.com/snehalpal/statuses/8383273287">Snehal Pal says:</a> &#8221;His blog is an amazing assortment of advice and contains stories of life as a techie, startups and hacks.&#8221;</p>
+  <p><a href="http://twitter.com/sreehu_DTA/status/60555631089827840">Sreehari says:</a> &#8221;Awesome awesome blog of @swaroopch ! Must read!! http://www.swaroopch.com No wonder it remains one among the top 10 #blogs in india! :-)</p>
+  <p><a href="http://twitter.com/prashishh/status/60937688118857728">Prashish Rajbhandari says:</a>&#8220;Reading @swaroopch &#8216;s blog. Very informative and inspirational. Thanks. :)&#8221;</p>
+  <p><a href="http://twitter.com/sitakanta/status/60959251228672000">Sitakanta says:</a> &#8221;The blog of @swaroopch is responsible for me leaving job to do this mad thing called a startup. So beware :)&#8221;</p>
+  <p><a href="http://twitter.com/my2paisa/statuses/28323997858930688">Vinay H R says:</a>&#8220;The more I read @swaroopch blogs, the more inspiration I get from it.&#8221;</p>
+  <p><a href="http://www.krishnabharadwaj.info/links/">Krishna Bharadwaj says:</a> &#8220;I consider Paul Graham and Joel Spolsky as some of the greatest technical writers. Swaroop C H writes some amazing articles as well!&#8221;</p>
+  <p><a href="http://twitter.com/hardfire/status/60939057286479872">Avinash Kundaliya says:</a>&#8220;Yeah! seriously man.. awesome blog..&#8221;</p>
+  <p><a href="/2011/01/17/pomodoro/#comment-3837">Chaitanya Nettem says:</a> &#8221;I love your blog. I just love it.&#8221;</p>
+  <p><a href="http://twitter.com/a_r_karthic/statuses/80675411897495553">A R Karthick says:</a>&#8220;Your blog posts show great clarity of thought.&#8221;</p>
+  <p><a href="https://twitter.com/#!/abhi9u/status/167168467106152448">Abhinav Upadhyay says:</a> &#8221;Your blog posts inspired me quite a lot during my early days at college :-)&#8221;</p>
+  <p><a href="http://twitter.com/chiraggupta/status/60953098281172992">Chirag Gupta says:</a>&#8220;I&#8217;ve been reading your blog for so long (since 2004 I think) that I find it funny when people discover it now :)&#8221;</p>
+  <p><a href="http://twitter.com/#!/chiraggupta/status/195093400633081856">Chirag Gupta says:</a> &#8220;I think I started following his blog like 7 years back. Those days, I didn&#8217;t even use RSS much :)&#8221;</p>
+  <p><a href="http://twitter.com/prashanth/status/195095174387482624">H N Prashanth says:</a> &#8220;you got yourself hardcore followers of your blog, we are watching every move! ;-)&#8221;</p>
+  <p><a href="/2012/07/30/life-without-a-tv/#comment-20399">Prateek Narang</a> says: &#8220;I like your writing….it makes me think.&#8221;</p>
+  <p><a href="http://twitter.com/LaurentiuAlexe/status/268831443961143296">Laurentiu Alexe</a> says: &#8220;I&#8217;ve discovered your blog after downloading the Python book. Very nice book and amazing blog. Thanks!&#8221;</p>
+  <p><a href="https://twitter.com/UndoRatRace/status/278010297380388865">Aditya Bhushan</a> says: &#8220;your views and answers (will) help a lot of people.&#8221;</p>
+
+  <h1>News</h1>
+
+  <ul>
+    <li>This blog has been featured as a <a href="/2010/09/21/featured-in-outlook-magazine/">recommended read in Outlook Magazine, for B-school students</a>.</li>
+    <li>This blog has been consistently rated as one of the top ten blogs in India, out of 20,000 blogs listed at <a href="http://www.invesp.com/blog-rank/India">Invesp BlogRank</a>. <a href="/2009/08/28/writing-principles/">Read about how it happened</a>.</li>
+<!-- TODO  <li>You&#8217;ll find interesting stories here about <a href="/for-startuppers/">my startup experiences</a> and <a href="/for-lifehackers/">my lifehacks</a>.</li> -->
+    <li>Me, an <a href="http://blog.nodejitsu.com/most-influential-github-users-by-location">influential GitHub user?</a> Check out my <a href="https://github.com/swaroopch">GitHub projects</a>.</li>
+    <li>To know more about Swaroop, see the <a href="/about/">About page</a>.</li>
+  </ul>
+
+  <br/>
+  <h1>Editor&#8217;s Picks</h1>
+
+  <ul>
+    <li><a href="/2011/06/14/productivity-talk-bcb10/">Talk on Productivity at Barcamp Bangalore 10</a></li>
+    <li><a href="/2011/05/17/passionate-programmer-book-review/">Passionate Programmer book review</a></li>
+    <li><a href="/2009/10/13/to-get-somewhere-already-be-there/">To get somewhere, you already have to be there</a></li>
+    <li><a href="/tag/isbnnetin/">Side-project: isbn.net.in</a></li>
+    <li><a href="/2009/08/28/writing-principles/">Writing Principles</a></li>
+    <li><a href="/2009/12/09/5-year-limit-to-being-a-coder-in-india/">The 5-year limit to being a coder in India?</a></li>
+    <li><a href="/2009/11/13/leaving-ionlab/">Leaving IonLab</a></li>
+    <li><a href="/2008/12/13/how-fresh-graduates-can-grow/">How Fresh Graduates Can Grow</a></li>
+    <li><a href="/2009/07/09/why-i-do-time-tracking/">Why I do Time Tracking</a></li>
+    <li><a href="/2008/04/20/why-you-should-run/">Why You Should Run</a></li>
+    <li><a href="/2009/02/23/tadiyandamol-again/">Tadiyandamol Again</a> for<a href="/tag/trek">trekking</a></li>
+    <li><a href="/tag/singapore/">The Singapore Series</a></li>
+  </ul>
+
+  <br/>
+  <h1>Books</h1>
+
+  <br/>
+  <h2>A Byte of Python</h2>
+  <p>This is a book on programming using the Python language. It serves as a tutorial or guide to the Python language for a beginner audience. If all you know about computers is how to save text files, then this is the book for you.</p>
+  <p><a title="Read Online" href="/notes/python/">⇒ Read Online</a></p>
+  <p><a href="http://littlepancakes.wordpress.com/2010/01/30/python">Syed Talal (19 years old) says</a>: &#8220;The best thing I found was <a href="http://www.swaroopch.com/notes/python/">A Byte of Python</a>, which is simply a brilliant book for a beginner. It&#8217;s well written, the concepts are well explained with self evident examples.&#8221;</p>
+  <p><a href="http://twitter.com/suren/status/12840485454">@suren says</a>: Byte of Vim and Python by @swaroopch is by far the best works in technical writing to me. Excellent reads #FeelGoodFactor</p>
+  <p><a href="http://twitter.com/Stripeh/status/17190896315408384">@Stripeh says</a>: I found the tutorial by http://www.swaroopch.com to be quite awesome, got through it in no time, very practically minded.</p>
+
+  <br/>
+  <h2>A Byte of Vim</h2>
+
+  <p>A Byte of Vim is a guide to help you to learn to learn about Vim, the text editor of choice for many programmers. This guide is aimed at both beginners who do not know anything about vi or vim and wish to learn how to become more productive in their writing, and intermediate users who wish to pick up advanced Vim tricks.</p>
+  <p><a title="Read Online" href="/notes/vim/">⇒ Read Online</a></p>
+  <p><a href="http://twitter.com/ven_cse/statuses/26678490964">@ven_cse (Venkatesh) says</a> &#8221;Started liking #vim, thanks to &#8220;A Byte of Vim&#8221;</p>
+  <p><a href="http://twitter.com/pradeek/status/26148923358">@Pradeek says</a> &#8221;@swaroopch &#8216;s <a rel="self" href="http://www.swaroopch.com/notes/vim/">Byte of Vim</a> is an excellent resource for Vim beginners like me. #awesomework&#8221;</p>
+
+  <br/>
+  <h1>Who is Swaroop?</h1>
+
+  <p>Swaroop C H (a.k.a. Swaroop Chitlur) currently works as a <a href="https://www.helpshift.com/about/team/">backend engineer</a> at <a href="http://www.helpshift.com">Helpshift</a>. He has previously worked at <a href="http://www.automatic.com">Automatic</a> (the "UI for your car" company), Yahoo!, Adobe, his own startup, Infibeam and as an independent software consultant. <a href="/about/">Read more about him</a>.</p>
+  <div style="width: 510px" class="wp-caption aligncenter"><a href="/files/images/2008/08/21-full.png"><img src="/files/images/2008/08/21-full-500x353.png" alt="Dreamer + Coder = Hacker (love this poster by @t3rmin4t0r)" width="500" height="353" class="size-medium wp-image-7094" /></a><p class="wp-caption-text">Dreamer + Coder = Hacker (love this poster by @t3rmin4t0r)</p></div>
+  <blockquote>
+    <p>Smart people read.<br />
+      Smarter people read and apply.<br />
+      The smartest people read, apply and share lessons learned.</p>
+    <p>&#8211; <a href="https://twitter.com/ValaAfshar/status/370929092834918400">@ValaAfshar</a>
+  </p></blockquote>
+</div>
+
+
+          <div class="footer">
+            <div class="contact">
+              <p>
+                Swaroop C H<br />
+                Backend Engineer<br />
+                <a href="https://www.automatic.com/about/">Automatic</a><br />
+                blog@swaroopch.com
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="https://github.com/swaroopch">github.com/swaroopch</a><br />
+                <a href="https://twitter.com/swaroopch">twitter.com/swaroopch</a><br />
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="/notes/python/">a byte of python</a><br />
+                <a href="/notes/vim/">a byte of vim</a><br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Piwik -->
+        <script type="text/javascript">
+          var _paq = _paq || [];
+          _paq.push(['trackPageView']);
+          _paq.push(['enableLinkTracking']);
+          (function() {
+          var u=(("https:" == document.location.protocol) ? "https" : "http") + "://analytics.swaroopch.com/";
+          _paq.push(['setTrackerUrl', u+'piwik.php']);
+          _paq.push(['setSiteId', 1]);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+          g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+          })();
+        </script>
+        <noscript><p><img src="http://analytics.swaroopch.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+        <!-- End Piwik Code -->
+
+    </body>
+</html>

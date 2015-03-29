@@ -1,0 +1,32 @@
+---
+layout: post
+title: Write wordpress blog from vim
+date: 2011-10-02 17:57:37.000000000 -04:00
+categories:
+- Vim
+- wordpress
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '17781607'
+author:
+  login: zenglekidd
+  email: zenglekidd@gmail.com
+  display_name: zenglekidd
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>This is my first time to use <a href="http://www.vim.org/scripts/script.php?script_id=3510" title="vimrepress" target="_blank">vimrepress</a>. A plugin that can let you wirte blog directly from vim.</p>
+<p>There are some command I use in this post</p>
+<ul>
+<li>:BlogList -- show all posts you have in vim</li>
+<li>:BlogSave publish -- publish you post to wordpress</li>
+</ul>
+<p>The problem I meet right now is that I can edit some old post from vim , but can not wirte a new post directly. Is there anyone know how can I solve this problem? <a style="font-size:10px;">(solved by myself)</a></p>
+<p>The format of this post is html, but the default setting is something named markdown. I really do not know what is that... I'll try to understand and post some words abot markdown in my next post.</p>
+<p><a style="font-size:15px;">Problem solved: (about new post)</a><br />
+When I use the command BlogNew, I keep filling in a number in "StrID" which cause a problem. This time I just leave StrID blank, the system give a ID automatic. Conculison: When use BlogNew, leave "StrID" as blank!!</p>

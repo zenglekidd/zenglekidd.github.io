@@ -1,0 +1,59 @@
+---
+layout: post
+title: Split and join file on Mac OSX Terminal
+date: 2011-10-06 06:38:55.000000000 -04:00
+categories:
+- Mac
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '17781607'
+  _oembed_dd31df1a1e790c730df70c3d6a1cabd6: ! '{{unknown}}'
+  _oembed_3434d8cc36f7a6e309369d421ba0c734: ! '{{unknown}}'
+  _oembed_e798d3465315ed7af7259f09e959e03c: ! '{{unknown}}'
+  _oembed_a32f75c5cdd4e75fb421e75e2e812a7b: ! '{{unknown}}'
+  _oembed_c45da31c5e95950678646e4947cbc65b: ! '{{unknown}}'
+  _oembed_f7b694241d678c8f0811c8686d003997: ! '{{unknown}}'
+  _oembed_889f78f3f8dbfa74c8d8e8e19a9c361c: ! '{{unknown}}'
+  _oembed_49c8481180da2ea89b4cfefaef477f7f: ! '{{unknown}}'
+  _oembed_c08a6e733e548d288615a2516f4ca8bb: ! '{{unknown}}'
+  _oembed_f16175a267c3dd58752010033aa60363: ! '{{unknown}}'
+  _oembed_4218fb625bb53c24c6e7c3a974d89814: ! '{{unknown}}'
+  _oembed_ce468efee7faf29feb2d073a1f67b746: ! '{{unknown}}'
+  _oembed_5a6f42680b83e5f932db496a4a7a2844: ! '{{unknown}}'
+  _oembed_b23ff0c544ef980f3c3e3e157eec2952: ! '{{unknown}}'
+  _oembed_2a112cd02edba04c48427a649c95285b: ! '{{unknown}}'
+  _oembed_200389b1ab7b1db3a5984732c6b546a5: ! '{{unknown}}'
+  _oembed_7ff39c748dd25df74cd3b427be76a92f: ! '{{unknown}}'
+  _oembed_bbed1ac7171ae3a6107cd39191940cfa: ! '{{unknown}}'
+  _oembed_38b9d7860470601b10347f976da1d289: ! '{{unknown}}'
+  _oembed_f18cb23ad7b748552f6f6c612ff4f8e4: ! '{{unknown}}'
+  _oembed_c4eac71eee2e6e636650cb1ee71c1682: ! '{{unknown}}'
+  _oembed_8801301ce3b384460b55c65eb744ed5c: ! '{{unknown}}'
+  _oembed_d93081063c819407dcf2e73e49c7f42f: ! '{{unknown}}'
+  _oembed_7e6f1213ba6c65d7b9a677b94924b155: ! '{{unknown}}'
+  _oembed_df4757d09551f5c3dae3653aac0ac77f: ! '{{unknown}}'
+author:
+  login: zenglekidd
+  email: zenglekidd@gmail.com
+  display_name: zenglekidd
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>I meet a problem, when I want to copy a 4.8G file to a friend.<br />
+Why not AirDrop? I really want to use, but his computer is just snow lepoard.(I use Lion)</p>
+<p>So I decied to split this file into three 2G file<br />
+which means each file is 2000m</p>
+<p>[sourcecode language="bash"]<br />
+$ split -f 2000m filname newFileName</p>
+<p>$ cat newFileNameaa newFileNameab newFileNameac &amp;gt;filename<br />
+[/sourcecode]</p>
+<p>The problem I meet is when you split a large file, it eat up all your inactive memory?</p>
+<p>Now , it solved by Google.<br />
+[sourcecode language="bash"]<br />
+$ purge<br />
+[/sourcecode]</p>

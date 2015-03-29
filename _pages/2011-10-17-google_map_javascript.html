@@ -1,0 +1,45 @@
+---
+layout: page
+title: Google map
+date: 2011-10-17 22:38:04.000000000 -04:00
+categories: []
+tags: []
+status: draft
+type: page
+published: false
+meta:
+  _edit_last: '17781607'
+author:
+  login: zenglekidd
+  email: zenglekidd@gmail.com
+  display_name: zenglekidd
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+
+<p>  function initialize() {<br />
+    var position = new google.maps.LatLng(-34.397, 150.644);<br />
+    var myOptions = {<br />
+      zoom: 10,<br />
+      center: position,<br />
+      mapTypeId: google.maps.MapTypeId.ROADMAP<br />
+    };<br />
+    var map = new google.maps.Map(<br />
+        document.getElementById("map_canvas"),<br />
+        myOptions);</p>
+<p>    var marker = new google.maps.Marker({<br />
+        position: position,<br />
+        map: map,<br />
+        title:"This is the place."<br />
+    });  </p>
+<p>    var contentString = 'Hello <strong>World</strong>!';<br />
+    var infowindow = new google.maps.InfoWindow({<br />
+        content: contentString<br />
+    });</p>
+<p>    google.maps.event.addListener(marker, 'click', function() {<br />
+      infowindow.open(map,marker);<br />
+    });</p>
+<p>  }</p>
+<div id="map_canvas" style="width:500px;height:500px;"></div>

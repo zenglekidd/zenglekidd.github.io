@@ -1,0 +1,35 @@
+---
+layout: post
+title: ! 'Vim: Don''t move around the document in insert mode!'
+date: 2011-11-04 11:47:39.000000000 -04:00
+categories:
+- Vim
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '17781607'
+  _wpas_done_linkedin: '1'
+  _wpas_done_twitter: '1'
+author:
+  login: zenglekidd
+  email: zenglekidd@gmail.com
+  display_name: zenglekidd
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>New Vim users will want the following lines to teach them to do things right:<br />
+[sourcecode language="bash"]<br />
+ inoremap  &lt;Up&gt;     &lt;NOP&gt;<br />
+ inoremap  &lt;Down&gt;   &lt;NOP&gt;<br />
+ inoremap  &lt;Left&gt;   &lt;NOP&gt;<br />
+ inoremap  &lt;Right&gt;  &lt;NOP&gt;<br />
+ noremap   &lt;Up&gt;     &lt;NOP&gt;<br />
+ noremap   &lt;Down&gt;   &lt;NOP&gt;<br />
+ noremap   &lt;Left&gt;   &lt;NOP&gt;<br />
+ noremap   &lt;Right&gt;  &lt;NOP&gt;<br />
+[/sourcecode]<br />
+This will disable the arrow keys while you’re in normal mode to help you learn to use hjkl. Trust me, you want to learn to use hjkl.   </p>
